@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infolift Solution  Career Center - Job placement assistance, resume building, interview preparation, and industry connections to transform your career">
+    <title>Career Center - Infolift Solution </title>
+    <link rel="stylesheet" href="../css/main.css">
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fedutechpr4555back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.10"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.1"></script>
+  </head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-card sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-19">
+                <!-- Logo -->
+                <!-- <div class="flex items-center">
+                    <a href="homepage.html" class="flex items-center space-x-3">
+                        <svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="#1E3A8A"/>
+                            <path d="M12 28V12L20 16L28 12V28L20 24L12 28Z" fill="#14B8A6"/>
+                            <circle cx="20" cy="20" r="3" fill="#F59E0B"/>
+                        </svg>
+                        <span class="text-2xl font-bold text-primary">Infolift Solution </span>
+                    </a>
+                </div> -->
+                <!-- <div class="flex items-center">
+    <a href="homepage.html" class="flex items-center space-x-3">
+        <img src="infolift_logo_400.svg" alt="Infolift Logo" class="w-10 h-10 object-contain" />
+        
+            </a>
+            </div> -->
+            <div class="flex items-center">
+    <a href="homepage.html" class="flex items-center">
+        <img src="infolift_logo_400.svg" alt="Infolift Logo" class="w-20 h-20 object-contain" />
+    </a>
+</div>
+
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="course_catalog.html" class="text-text-secondary hover:text-primary transition-colors">Courses</a>
+                    <a href="https://www.programiz.com/python-programming/online-compiler/" class="text-text-secondary hover:text-primary transition-colors"target="_blank" rel="noopener noreferrer">Practice Labs</a>
+                    <a href="career_center.html" class="text-primary font-semibold border-b-2 border-primary pb-1">Career Center</a>
+                    <a href="about.html" class="text-text-secondary hover:text-primary transition-colors">About Us</a>
+                    <a href="contact_us.html" class="text-text-secondary hover:text-primary transition-colors">Contact Us</a>
+
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="course_catalog.html" class="btn btn-primary">Start Learning</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-surface transition-colors" aria-label="Toggle mobile menu">
+                    <svg class="w-6 h-6 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="homepage.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Home</a>
+                    <a href="course_catalog.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Courses</a>
+                    <a href="learning_dashboard.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Dashboard</a>
+                    <a href="https://www.programiz.com/python-programming/online-compiler/" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Practice Labs</a>
+                    <a href="career_center.html" class="text-primary font-semibold px-4 py-2 rounded-lg bg-primary-50">Career Center</a>
+                    <a href="about.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">About</a>
+                    <div class="pt-4 border-t border-border space-y-2">
+                        <a href="learning_dashboard.html" class="block text-center px-4 py-2 text-primary font-medium">Sign In</a>
+                        <a href="course_catalog.html" class="block btn btn-primary w-full">Start Learning</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- <div class="top-banner">
+  <span class="bell">🔔</span>
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    ⚡ Enrollment closing in <span id="countdown">1d 23h 58m 15s</span> | Only a few seats left across all courses. Secure yours now!
+  </marquee>
+  <a href="https://app.webbency.com/v2/preview/qAOeggdn3UOozTwQ7Bna" target="_blank">
+    <button class="banner-btn" fdprocessedid="dtg5z">Enroll Now</button>
+  </a>
+</div> -->
+<div class="top-banner" style="padding: 10px; background:#ffecc7; display:flex; align-items:center; gap:15px;">
+  <span class="bell" style="font-size:22px;">🔔</span>
+
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="flex:1; font-weight:bold;color: #000;">
+    ⚡ Enrollment closing in <span id="countdown">Loading...</span> | Only a few seats left across all courses. Secure yours now!
+  </marquee>
+
+  <a href="https://forms.gle/Bnp6KMKtFApNotf19" target="_blank">
+    <button class="banner-btn" style="padding:8px 15px; background:#ff0000; color:white; border:none; border-radius:4px; cursor:pointer;">
+      Enroll Now
+    </button>
+  </a>
+</div>
+
+<!-- ======= COUNTDOWN TIMER SCRIPT ======= -->
+<script>
+  // Set your deadline here
+  const endDate = new Date("2025-12-31T23:59:59").getTime();
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = endDate - now;
+
+    if (distance <= 0) {
+      document.getElementById("countdown").innerHTML = "0d 0h 0m 0s";
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+      `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }
+
+  // Run every second
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-900 via-primary-800 to-secondary-900 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="career-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#career-grid)"/>
+            </svg>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+            <div class="text-center text-white space-y-6 fade-in">
+                <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-4">
+                    <span class="w-2 h-2 bg-secondary-300 rounded-full animate-pulse"></span>
+                    <span class="text-sm font-medium">100% Job Placement Assurance Support</span>
+                </div>
+                
+                <h1 class="text-5xl lg:text-6xl font-bold leading-tight max-w-4xl mx-auto" style="color: #ffecc7;">
+                    Transform Your Learning Into <span class="text-secondary-300">Career Success</span>
+                </h1>
+                
+                <p class="text-xl text-primary-100 leading-relaxed max-w-3xl mx-auto">
+                    Bridge the gap between learning and earning with comprehensive career support, industry connections, and proven placement strategies that have helped 50,000+ learners land their dream jobs.
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <a href="#career-tools" class="btn bg-secondary hover:bg-secondary-600 text-white shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        Explore Career Tools
+                    </a>
+                    <a href="#success-stories" class="btn bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 hover:bg-white/20">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        View Success Stories
+                    </a>
+                </div>
+
+                <!-- Stats Bar -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12 max-w-4xl mx-auto">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary-300 mb-2">92%</div>
+                        <div class="text-sm text-primary-100">Job Placement Rate</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary-300 mb-2">£60,000</div>
+                        <div class="text-sm text-primary-100">Average Starting Salary</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary-300 mb-2">100+</div>
+                        <div class="text-sm text-primary-100">Partner Companies</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary-300 mb-2">3 Months</div>
+                        <div class="text-sm text-primary-100">Average Time to Hire</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Path Explorer -->
+
+
+    <!-- Career Tools Section -->
+    <section id="career-tools" class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="badge badge-secondary text-base mb-4">Career Support Tools</span>
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary mb-4">Everything You Need to Land Your Dream Job</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Comprehensive career support tools designed to give you a competitive edge in the job market
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tool 1: Resume Builder -->
+                <div class="card-elevated p-8 hover:shadow-floating transition-shadow">
+                    <div class="w-14 h-14 bg-primary-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">AI-Powered Resume Builder</h3>
+                    <p class="text-text-secondary mb-6">Create ATS-optimized resumes with industry-specific templates and AI-powered content suggestions</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">15+ Professional Templates</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">ATS Optimization Score</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Real-time Content Suggestions</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn btn-outline w-full">Build Your Resume</a>
+                </div>
+
+                <!-- Tool 2: Interview Prep -->
+                <div class="card-elevated p-8 hover:shadow-floating transition-shadow">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Mock Interview Simulator</h3>
+                    <p class="text-text-secondary mb-6">Practice with AI-powered mock interviews and get instant feedback on your responses</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">500+ Interview Questions</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Video Recording & Analysis</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Personalized Feedback</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn btn-outline w-full">Start Practicing</a>
+                </div>
+
+                <!-- Tool 3: Salary Calculator -->
+                <div class="card-elevated p-8 hover:shadow-floating transition-shadow">
+                    <div class="w-14 h-14 bg-accent-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Salary Negotiation Tools</h3>
+                    <p class="text-text-secondary mb-6">Research market rates and prepare for salary negotiations with data-driven insights</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Real-time Market Data</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Location-based Insights</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Negotiation Scripts</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn btn-outline w-full">Calculate Salary</a>
+                </div>
+
+                <!-- Tool 4: Job Board -->
+                <div class="card-elevated p-8 hover:shadow-floating transition-shadow">
+                    <div class="w-14 h-14 bg-success-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Exclusive Job Board</h3>
+                    <p class="text-text-secondary mb-6">Access curated job openings from 500+ partner companies actively hiring our graduates</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">2,500+ Active Openings</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Direct Employer Connections</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">One-Click Applications</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn btn-outline w-full">Browse Jobs</a>
+                </div>
+
+                <!-- Tool 5: Portfolio Builder -->
+                <div class="card-elevated p-8 hover:shadow-floating transition-shadow">
+                    <div class="w-14 h-14 bg-primary-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Portfolio Showcase</h3>
+                    <p class="text-text-secondary mb-6">Build a professional portfolio website to showcase your projects and skills to employers</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Customizable Templates</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">GitHub Integration</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Custom Domain Support</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn btn-outline w-full">Create Portfolio</a>
+                </div>
+
+                <!-- Tool 6: Alumni Network -->
+                <div class="card-elevated p-8 hover:shadow-floating transition-shadow">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Alumni Network</h3>
+                    <p class="text-text-secondary mb-6">Connect with 50,000+ alumni for mentorship, networking, and career opportunities</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Mentorship Matching</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Industry Events Access</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-sm text-text-secondary">Referral Opportunities</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn btn-outline w-full">Join Network</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section id="success-stories" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="badge badge-success text-base mb-4">Success Stories</span>
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary mb-4">Real Career Transformations</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    See how our graduates transformed their careers and achieved their professional goals
+                </p>
+            </div>
+
+  
+    <!-- Slider Container -->
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-8">
+            <h3 class="text-2xl font-semibold text-primary">Alumni Placements</h3>
+            <p class="text-text-secondary max-w-2xl mx-auto">Selected student placements from our recent cohorts</p>
+        </div>
+
+        <!-- Slider Outer -->
+        <div class="relative overflow-hidden" style="width:100%;">
+
+            <!-- Track (moving element) -->
+            <div id="testimonialSlider" style="display:flex; transition:transform 0.6s ease; will-change:transform;">
+                <!-- Slide 1 -->
+                <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p1.png" alt="Aisha Khan" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Ahmed guranni</h4>
+                        <p class="text-sm text-text-secondary">Placed at TCS</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p2.png" alt="Rohit Sharma" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Rohit Sharma</h4>
+                        <p class="text-sm text-text-secondary">Placed at Infosys</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p3.png" alt="Sahil " class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Sahil Behera</h4>
+                        <p class="text-sm text-text-secondary">Placed at Accenture</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p4.png" alt="Vikram Patel" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Vikram Patel</h4>
+                        <p class="text-sm text-text-secondary">Placed at PwC</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p5.png" alt="Sara Iqbal" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Sara Iqbal</h4>
+                        <p class="text-sm text-text-secondary">Placed at IBM</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p6.png" alt="Karan Mehta" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Karan Mehta</h4>
+                        <p class="text-sm text-text-secondary">Placed at ConferenceAlert</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p7.png" alt="Priya Nair" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Sibam Nayak</h4>
+                        <p class="text-sm text-text-secondary">Placed at ITResearch</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p8.png" alt="Adil Khan" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Adil Khan</h4>
+                        <p class="text-sm text-text-secondary">Placed at IRAJ</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p9.png" alt="Maya Singh" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Madhab sahu</h4>
+                        <p class="text-sm text-text-secondary">Placed at Deloitte</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p10.png" alt="Arjun Verma" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Arjun Verma</h4>
+                        <p class="text-sm text-text-secondary">Placed at HCL</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p11.png" alt="Fatima Rizvi" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Fatima Rizvi</h4>
+                        <p class="text-sm text-text-secondary">Placed at Capgemini</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p12.png" alt="Siddharth Rao" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Siddharth Rao</h4>
+                        <p class="text-sm text-text-secondary">Placed at IBM</p>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p13.png" alt="Leena Das" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Leena Das</h4>
+                        <p class="text-sm text-text-secondary">Placed at Inovaare</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p14.png" alt="Rajat Joshi" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Rajat Joshi</h4>
+                        <p class="text-sm text-text-secondary">Placed at Wipro</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p15.png" alt="Ankita Roy" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Ankit Behera</h4>
+                        <p class="text-sm text-text-secondary">Placed at Cognizant</p>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p16.png" alt="Mohit Saini" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Mohit Saini</h4>
+                        <p class="text-sm text-text-secondary">Placed at P&S</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p17.png" alt="Isha Bhatt" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Subham Mohanty</h4>
+                        <p class="text-sm text-text-secondary">Placed at Mphasis</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p18.png" alt="Devansh Agarwal" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Debashis Jena</h4>
+                        <p class="text-sm text-text-secondary">Placed at TCS</p>
+                    </div>
+                </div>
+
+                <!-- Slide 7 -->
+                <!-- <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p19.png" alt="Gayatri Menon" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Gayatri Menon</h4>
+                        <p class="text-sm text-text-secondary">Placed at Adobe</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p20.png" alt="Rohin Das" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Rohin Das</h4>
+                        <p class="text-sm text-text-secondary">Placed at Zoho</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p21.png" alt="Shreya Kapoor" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Shreya Kapoor</h4>
+                        <p class="text-sm text-text-secondary">Placed at Samsung</p>
+                    </div>
+                </div> -->
+
+                <!-- Slide 8 -->
+                <!-- <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p22.png" alt="Naveen Yadav" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Naveen Yadav</h4>
+                        <p class="text-sm text-text-secondary">Placed at Intel</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p23.png" alt="Aarti Sharma" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Aarti Sharma</h4>
+                        <p class="text-sm text-text-secondary">Placed at Samsung R&D</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p24.png" alt="Kunal Bhat" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Kunal Bhat</h4>
+                        <p class="text-sm text-text-secondary">Placed at NTRO</p>
+                    </div>
+                </div> -->
+
+                <!-- Slide 9 -->
+                <!-- <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p25.png" alt="Rhea Malhotra" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Rhea Malhotra</h4>
+                        <p class="text-sm text-text-secondary">Placed at Goldman Sachs</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p26.png" alt="Saurav Roy" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Saurav Roy</h4>
+                        <p class="text-sm text-text-secondary">Placed at McKinsey</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p27.png" alt="Pooja Verma" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Pooja Verma</h4>
+                        <p class="text-sm text-text-secondary">Placed at EY</p>
+                    </div>
+                </div> -->
+
+                <!-- Slide 10 -->
+                <!-- <div class="TestimonialSlider" style="min-width:100%; display:flex; gap:1rem; justify-content:space-between;">
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p28.png" alt="Manav Kulkarni" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Manav Kulkarni</h4>
+                        <p class="text-sm text-text-secondary">Placed at Freshworks</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p29.png" alt="Devika Menon" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Devika Menon</h4>
+                        <p class="text-sm text-text-secondary">Placed at ThoughtWorks</p>
+                    </div>
+                    <div class="card-elevated p-6 flex-1 text-center">
+                        <img src="images/p30.png" alt="Harshad Pillai" class="mx-auto rounded-full w-16 h-16 object-cover mb-4"/>
+                        <h4 class="font-semibold text-primary">Harshad Pillai</h4>
+                        <p class="text-sm text-text-secondary">Placed at Oracle Cloud</p>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- Optional: Dots -->
+            <div class="mt-6 flex justify-center gap-2">
+                <div id="dotsContainer" class="flex gap-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Render dots based on number of slides
+        (function () {
+            const slides = document.querySelectorAll('.TestimonialSlider');
+            const dotsContainer = document.getElementById('dotsContainer');
+            slides.forEach((_, i) => {
+                const dot = document.createElement('button');
+                dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+                dot.style.width = '10px';
+                dot.style.height = '10px';
+                dot.style.borderRadius = '50%';
+                dot.style.background = i === 0 ? '#1E3A8A' : '#CBD5E1';
+                dot.style.border = 'none';
+                dot.style.cursor = 'pointer';
+                dot.addEventListener('click', () => {
+                    currentSlide = i;
+                    document.getElementById('testimonialSlider').style.transform = `translateX(-${currentSlide * 100}%)`;
+                    Array.from(dotsContainer.children).forEach((d, idx) => d.style.background = idx === i ? '#1E3A8A' : '#CBD5E1');
+                });
+                dotsContainer.appendChild(dot);
+            });
+        })();
+    </script>
+
+    </section>
+
+    <!-- Industry Partners Section -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-secondary-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="badge badge-primary text-base mb-4">Industry Connections</span>
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary mb-4">Trusted by Leading Companies</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Our graduates are hired by 100+ partner companies across the tech industry
+                </p>
+            </div>
+
+            <!-- Partner Logos -->
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-16">
+                <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-card hover:shadow-elevated transition-shadow">
+                <img src="3.png" alt="1 Logo" class="h-10 w-20" />
+
+                </div>
+                <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-card hover:shadow-elevated transition-shadow">
+                    <img src="images/pwc.jpg" alt="1 Logo" class="h-10 w-20" />
+                </div>
+                <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-card hover:shadow-elevated transition-shadow">
+                                        <img src="images/acc.jpg" alt="1 Logo" class="w-20 h-10" />
+                </div>
+                <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-card hover:shadow-elevated transition-shadow">
+                    <img src="6.png" alt="1 Logo" class="w-20 h-10" />
+                </div>
+                <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-card hover:shadow-elevated transition-shadow">
+                                        <img src="images/tcs.jpg" alt="1 Logo" class="w-20 h-10" />
+
+                </div>
+                <div class="flex items-center justify-center p-6 bg-white rounded-xl shadow-card hover:shadow-elevated transition-shadow">
+                                                            <img src="10.jpg" alt="1 Logo" class="w-20 h-10" />
+                </div>
+            </div>
+
+            <!-- Partner Stats -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-elevated p-8 text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-4xl font-bold text-primary mb-2">100+</h3>
+                    <p class="text-text-secondary">Partner Companies</p>
+                </div>
+
+                <div class="card-elevated p-8 text-center">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-accent">£</span>
+
+                    </div>
+                    <h3 class="text-4xl font-bold text-primary mb-2">£60,000</h3>
+                    <p class="text-text-secondary">Average Starting Salary</p>
+                </div>
+
+               <div class="card-elevated p-8 text-center">
+    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M5 13l4 4L19 7" />
+        </svg>
+    </div>
+                    <h3 class="text-4xl font-bold text-primary mb-2">100%</h3>
+                    <p class="text-text-secondary">Placement Support Guarantee</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-primary to-primary-800 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="cta-pattern" width="60" height="60" patternUnits="userSpaceOnUse">
+                        <circle cx="30" cy="30" r="2" fill="white"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#cta-pattern)"/>
+            </svg>
+        </div>
+
+        <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">Ready to Transform Your Career?</h2>
+            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+                Join 50,000+ learners who have successfully transitioned into tech careers. Start your journey today with personalized career guidance.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="course_catalog.html" class="btn bg-white text-primary hover:bg-primary-50 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                    Browse Courses
+                </a>
+                <a href="javascript:void(0)" class="btn bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 hover:bg-white/20">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                    Book Career Consultation
+                </a>
+            </div>
+
+            <div class="mt-12 flex flex-wrap justify-center gap-8 text-white">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-secondary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Free career assessment</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-secondary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Personalized learning path</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-secondary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Job placement guarantee</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <!-- <div class="flex items-center space-x-3 mb-4">
+                        <svg class="w-8 h-8" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="#1E3A8A"/>
+                            <path d="M12 28V12L20 16L28 12V28L20 24L12 28Z" fill="#14B8A6"/>
+                            <circle cx="20" cy="20" r="3" fill="#F59E0B"/>
+                        </svg>
+                        <span class="text-xl font-bold text-white">Infolift Solution </span>
+                    </div> -->
+
+          <div class="flex items-center">
+    <a href="homepage.html" class="flex items-center">
+        <img src="infolift_logo_400.svg" alt="Infolift Logo" class="w-20 h-20 object-contain" />
+    </a>
+</div>
+                    
+                    <p class="text-sm mb-4">AN ISO 9001:2008 CERTIFIED ORGANIZATION</p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="Twitter">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="YouTube">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="course_catalog.html" class="hover:text-secondary transition-colors">All Courses</a></li>
+                        <li><a href="practice_labs.html" class="hover:text-secondary transition-colors">Practice Labs</a></li>
+                        <li><a href="career_center.html" class="hover:text-secondary transition-colors">Career Services</a></li>
+                        <li><a href="about.html" class="hover:text-secondary transition-colors">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="javascript:void(0)" class="hover:text-secondary transition-colors">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-secondary transition-colors">FAQs</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-secondary transition-colors">Community Forum</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-secondary transition-colors">Technical Support/Help Center</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Stay Updated</h4>
+                    <p class="text-sm mb-4">Get the latest courses, tips, and career advice delivered to your inbox.</p>
+                    <form class="space-y-2">
+                        <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-secondary">
+                        <button type="submit" class="w-full btn btn-secondary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-400">© 2025 Infolift Solution Pvt Ltd. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="javascript:void(0)" class="text-sm hover:text-secondary transition-colors">Privacy Policy</a>
+                    <a href="javascript:void(0)" class="text-sm hover:text-secondary transition-colors">Terms of Service</a>
+                    <a href="javascript:void(0)" class="text-sm hover:text-secondary transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+<!-- <script>
+  let currentSlide = 0;
+  const slider = document.querySelector(".TestimonialSlider");
+  const totalSlides = 2; // because 6 cards / 3 per slide
+
+  function moveSlide() {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+  // Auto slide every 4 seconds
+  setInterval(moveSlide, 4000);
+</script> -->
+
+<script>
+  let currentSlide = 0;
+
+  // Select the moving track (correct element)
+  const slider = document.getElementById("testimonialSlider");
+
+  // Select all slides
+  const slides = document.querySelectorAll(".TestimonialSlider");
+  const totalSlides = slides.length;
+
+  function moveSlide() {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+
+  // Auto slide every 4 seconds
+  setInterval(moveSlide, 4000);
+</script>
+
+
+
+
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

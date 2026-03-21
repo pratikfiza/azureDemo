@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Infolift - Transforming potential into expertise through accessible, engaging, and immediately applicable education. Learn about our mission, teaching methodology, and expert instructors.">
+    <title>InfoLift</title>
+    <link rel="stylesheet" href="../css/main.css">
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fedutechpr4555back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.10"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.1"></script>
+  </head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-card sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-19">
+                <!-- Logo -->
+                <!-- <div class="flex items-center">
+                    <a href="homepage.html" class="flex items-center space-x-3">
+                        <svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="#1E3A8A"/>
+                            <path d="M12 28V12L20 16L28 12V28L20 24L12 28Z" fill="#14B8A6"/>
+                            <circle cx="20" cy="20" r="3" fill="#F59E0B"/>
+                        </svg>
+                        <span class="text-2xl font-bold text-primary">EduTech Pro</span>
+                    </a>
+                </div> -->
+                <!-- <div class="flex items-center">
+    <a href="homepage.html" class="flex items-center space-x-3">
+        <img src="infolift_logo_400.svg" alt="Infolift Logo" class="w-10 h-10 object-contain" />
+        
+            </a>
+            </div> -->
+            <div class="flex items-center">
+    <a href="homepage.html" class="flex items-center">
+        <img src="infolift_logo_400.svg" alt="Infolift Logo" class="w-20 h-20 object-contain" />
+    </a>
+</div>
+
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="course_catalog.html" class="text-text-secondary hover:text-primary transition-colors">Courses</a>
+                    <a href="https://www.programiz.com/python-programming/online-compiler/" class="text-text-secondary hover:text-primary transition-colors"target="_blank" rel="noopener noreferrer">Practice Labs</a>
+                    <a href="career_center.html" class="text-text-secondary hover:text-primary transition-colors">Career Center</a>
+                    <a href="about.html" class="text-primary font-semibold border-b-2 border-primary pb-1">About Us</a>
+                    <a href="contact_us.html" class="text-text-secondary hover:text-primary transition-colors">Contact Us</a>
+
+
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="course_catalog.html" class="btn btn-primary">Start Learning</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-surface transition-colors" aria-label="Toggle mobile menu">
+                    <svg class="w-6 h-6 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="homepage.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Home</a>
+                    <a href="course_catalog.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Courses</a>
+                    <a href="https://www.programiz.com/python-programming/online-compiler/" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Practice Labs</a>
+                    <a href="career_center.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Career Center</a>
+                    <a href="about.html" class="text-primary font-semibold px-4 py-2 rounded-lg bg-primary-50">About Us</a>
+                    <a href="contact_us.html" class="text-text-secondary hover:bg-surface px-4 py-2 rounded-lg transition-colors">Contact Us</a>
+
+                    <div class="pt-4 border-t border-border space-y-2">
+                        <a href="course_catalog.html" class="block btn btn-primary w-full">Start Learning</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- <div class="top-banner">
+  <span class="bell">🔔</span>
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    ⚡ Enrollment closing in <span id="countdown">1d 23h 58m 15s</span> | Only a few seats left across all courses. Secure yours now!
+  </marquee>
+  <a href="https://app.webbency.com/v2/preview/qAOeggdn3UOozTwQ7Bna" target="_blank">
+    <button class="banner-btn" fdprocessedid="dtg5z">Enroll Now</button>
+  </a>
+</div> -->
+<div class="top-banner" style="padding: 10px; background:#ffecc7; display:flex; align-items:center; gap:15px;">
+  <span class="bell" style="font-size:22px;">🔔</span>
+
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="flex:1; font-weight:bold;color: #000;">
+    ⚡ Enrollment closing in <span id="countdown">Loading...</span> | Only a few seats left across all courses. Secure yours now!
+  </marquee>
+
+  <a href="https://forms.gle/Bnp6KMKtFApNotf19" target="_blank">
+    <button class="banner-btn" style="padding:8px 15px; background:#ff0000; color:white; border:none; border-radius:4px; cursor:pointer;">
+      Enroll Now
+    </button>
+  </a>
+</div>
+
+<!-- ======= COUNTDOWN TIMER SCRIPT ======= -->
+<script>
+  // Set deadline to 7 days from now
+  const endDate = new Date();
+  endDate.setDate(endDate.getDate() + 7);
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = endDate.getTime() - now;
+
+    if (distance <= 0) {
+      document.getElementById("countdown").innerHTML = "0d 0h 0m 0s";
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+      `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }
+
+  // Run every second
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>
+
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+            <div class="text-center text-white space-y-6 fade-in">
+                <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-4">
+                    <span class="w-2 h-2 bg-secondary-400 rounded-full animate-pulse"></span>
+                    <span class="text-sm font-medium">Transforming Education Since 2020</span>
+                </div>
+                
+                <h1 class="text-5xl lg:text-6xl font-bold leading-tight max-w-4xl mx-auto" style="color: #ffecc7;">
+                    Where <span class="text-secondary-300">Potential</span> Becomes <span class="text-accent-300">Expertise</span>
+                </h1>
+                
+                <p class="text-xl text-primary-100 leading-relaxed max-w-3xl mx-auto">
+                    We believe quality education should be accessible, engaging, and immediately applicable. At InfoLift, we bridge the gap between academic learning and industry readiness through hands-on practice and real-world projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Mission Content -->
+                <div class="space-y-6 slide-up">
+                    <span class="badge badge-primary text-base">Our Mission</span>
+                    <h2 class="text-4xl lg:text-5xl font-bold text-primary">Empowering Learners to Transform Their Careers</h2>
+                    <p class="text-lg text-text-secondary leading-relaxed">
+                        InfoLift was founded on the belief that traditional education often falls short in preparing students for real-world challenges. We created a platform that doesn't just teach concepts—it builds capabilities through immersive, hands-on learning experiences.
+                    </p>
+                    <p class="text-lg text-text-secondary leading-relaxed">
+                        Our approach is simple yet powerful: combine cutting-edge technology with proven pedagogical methods to create an environment where learners genuinely evolve their skills and career trajectories. We're not just another online course platform—we're your partner in career transformation.
+                    </p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-6 pt-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary mb-1">Accessible</h4>
+                                <p class="text-sm text-text-secondary">Quality education for everyone, everywhere</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary mb-1">Engaging</h4>
+                                <p class="text-sm text-text-secondary">Interactive learning that keeps you motivated</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary mb-1">Practical</h4>
+                                <p class="text-sm text-text-secondary">Skills you can apply immediately</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary mb-1">Supportive</h4>
+                                <p class="text-sm text-text-secondary">Community-driven learning environment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission Visual -->
+                <div class="relative">
+                    <div class="relative rounded-2xl overflow-hidden shadow-floating">
+                        <img src="https://img.rocket.new/generatedImages/rocket_gen_img_16d0c03c4-1764661565834.png" 
+                             alt="Diverse group of students collaborating on laptops in modern learning space, representing InfoLift inclusive and engaging educational approach" 
+                             class="w-full h-auto object-cover"
+                             loading="lazy"
+                             onerror="this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;">
+                    </div>
+                    
+                    <!-- Floating Stats -->
+                    <div class="absolute -bottom-6 -left-6 bg-white rounded-xl p-6 shadow-floating">
+                        <div class="text-center">
+                            <p class="text-4xl font-bold text-primary">50K+</p>
+                            <p class="text-sm text-text-secondary">Lives Transformed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute -top-6 -right-6 bg-white rounded-xl p-6 shadow-floating">
+                        <div class="text-center">
+                            <p class="text-4xl font-bold text-secondary">92%</p>
+                            <p class="text-sm text-text-secondary">Job Placement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Teaching Methodology -->
+
+
+ 
+    <!-- Platform Impact Stats -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="badge badge-success text-base mb-4">Our Impact</span>
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary mb-4">Transforming Lives Through Education</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Real numbers that demonstrate our commitment to student success
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Stat 1 -->
+                <div class="card-elevated p-8 text-center hover:shadow-floating transition-shadow">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                    </div>
+                    <p class="text-5xl font-bold text-primary mb-2">5,000+</p>
+                    <p class="text-text-secondary font-medium">Active Students</p>
+                    <p class="text-sm text-text-tertiary mt-2">Learning and growing daily</p>
+                </div>
+
+                <!-- Stat 2 -->
+                <div class="card-elevated p-8 text-center hover:shadow-floating transition-shadow">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                    </div>
+                    <p class="text-5xl font-bold text-secondary mb-2">20+</p>
+                    <p class="text-text-secondary font-medium">Expert Courses</p>
+                    <p class="text-sm text-text-tertiary mt-2">Across all tech domains</p>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="card-elevated p-8 text-center hover:shadow-floating transition-shadow">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <p class="text-5xl font-bold text-accent mb-2">100%</p>
+                    <p class="text-text-secondary font-medium">Job Placement Assurance Support</p>
+                    <p class="text-sm text-text-tertiary mt-2">Within 3 months of completion</p>
+                </div>
+
+                <!-- Stat 4 -->
+                <div class="card-elevated p-8 text-center hover:shadow-floating transition-shadow">
+                    <div class="w-16 h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <p class="text-5xl font-bold text-success mb-2">4.9/5</p>
+                    <p class="text-text-secondary font-medium">Average Rating</p>
+                    <p class="text-sm text-text-tertiary mt-2">From 2,000+ reviews</p>
+                </div>
+            </div>
+
+            <!-- Additional Stats -->
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div class="text-center">
+                    <p class="text-4xl font-bold text-primary mb-2">85%</p>
+                    <p class="text-text-secondary">Course Completion Rate</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-4xl font-bold text-secondary mb-2">100%</p>
+                    <p class="text-text-secondary">Average Salary Hike</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-4xl font-bold text-accent mb-2">3+</p>
+                    <p class="text-text-secondary">Countries Worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Partnerships -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="badge badge-primary text-base mb-4">Industry Recognition</span>
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary mb-4">Trusted by Leading Tech Companies</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Our partnerships with industry leaders ensure our curriculum stays current and relevant
+                </p>
+            </div>
+
+            <!-- Partnership Logos -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+                <div class="card p-8 flex items-center justify-center hover:shadow-elevated transition-shadow">
+                     <img src="images/acc.jpg" alt="1 Logo" class="w-20 h-20 object-contain" />
+                </div>
+                <div class="card p-8 flex items-center justify-center hover:shadow-elevated transition-shadow">
+                 <img src="images/pwc.jpg" alt="2 Logo" class="w-20 h-10 object-contain" />
+                </div>
+                <div class="card p-8 flex items-center justify-center hover:shadow-elevated transition-shadow">
+                                 <img src="images/tcs.jpg" alt="2 Logo" class="w-20 h-10 object-contain" />
+                </div>
+                <div class="card p-8 flex items-center justify-center hover:shadow-elevated transition-shadow">
+                            <img src="6.png" alt="2 Logo" class="w-20 h-10 object-contain" />
+                </div>
+            </div>
+
+            <!-- Partnership Benefits -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card p-6">
+                    <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-2">Industry-Validated Curriculum</h3>
+                    <p class="text-text-secondary">Our courses are reviewed and approved by engineers from top tech companies to ensure relevance and quality.</p>
+                </div>
+
+                <div class="card p-6">
+                    <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-2">Official Certifications</h3>
+                    <p class="text-text-secondary">Earn recognized certifications from our partner companies that add credibility to your resume and LinkedIn profile.</p>
+                </div>
+
+                <div class="card p-6">
+                    <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-2">Direct Hiring Opportunities</h3>
+                    <p class="text-text-secondary">Get exclusive access to job openings at our partner companies and fast-track your application process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-primary to-primary-800 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="cta-pattern" width="60" height="60" patternUnits="userSpaceOnUse">
+                        <circle cx="30" cy="30" r="2" fill="white"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#cta-pattern)"/>
+            </svg>
+        </div>
+
+        <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">Ready to Start Your Journey?</h2>
+            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+                Join thousands of learners who are transforming their careers with InfoLift, Your future starts today.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="course_catalog.html" class="btn bg-white text-primary hover:bg-primary-50 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                    Browse Courses
+                </a>
+                <a href="https://forms.gle/wVWCUXzKHNJHqehH8" target="_blank"  class="btn bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 hover:bg-white/20">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                    Schedule Consultation
+                </a>
+            </div>
+
+            <div class="mt-12 flex flex-wrap justify-center gap-8 text-white">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-secondary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Any Degree</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-secondary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>100% Placement Assurance Support</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-secondary-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span>Lifetime access to materials</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <!-- <div class="flex items-center space-x-3 mb-4">
+                        <svg class="w-8 h-8" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="#1E3A8A"/>
+                            <path d="M12 28V12L20 16L28 12V28L20 24L12 28Z" fill="#14B8A6"/>
+                            <circle cx="20" cy="20" r="3" fill="#F59E0B"/>
+                        </svg>
+                        <span class="text-xl font-bold text-white">EduTech Pro</span>
+                    </div> -->
+
+          <div class="flex items-center">
+    <a href="homepage.html" class="flex items-center">
+        <img src="infolift_logo_400.svg" alt="Infolift Logo" class="w-20 h-20 object-contain" />
+    </a>
+</div>
+                    
+                    <p class="text-sm mb-4">AN ISO 9001:2008 CERTIFIED ORGANIZATION</p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="Twitter">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="hover:text-secondary transition-colors" aria-label="YouTube">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="course_catalog.html" class="hover:text-secondary transition-colors">All Courses</a></li>
+                        <li><a href="practice_labs.html" class="hover:text-secondary transition-colors">Practice Labs</a></li>
+                        <li><a href="career_center.html" class="hover:text-secondary transition-colors">Career Services</a></li>
+                        <li><a href="about.html" class="hover:text-secondary transition-colors">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="contact_us.html" class="hover:text-secondary transition-colors">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-secondary transition-colors">FAQs</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-secondary transition-colors">Community Forum</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-secondary transition-colors">Technical Support/Help Center</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Stay Updated</h4>
+                    <p class="text-sm mb-4">Get the latest courses, tips, and career advice delivered to your inbox.</p>
+                    <form class="space-y-2">
+                        <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-secondary">
+                        <button type="submit" class="w-full btn btn-secondary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-400">© 2025 Infolift Solution Pvt Ltd. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="javascript:void(0)" class="text-sm hover:text-secondary transition-colors">Privacy Policy</a>
+                    <a href="javascript:void(0)" class="text-sm hover:text-secondary transition-colors">Terms of Service</a>
+                    <a href="javascript:void(0)" class="text-sm hover:text-secondary transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Mobile Menu Script -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
